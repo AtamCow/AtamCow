@@ -187,9 +187,12 @@ html{
 
 #content .content-section{
     width: 800px;
+    max-width: 100%;
     padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #content .section-heading{
@@ -211,7 +214,9 @@ html{
     margin-top: 25px;
     font-size: 15px;
     text-align: justify;
-    line-height: 1.4;
+    line-height: 1.4;.  
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 #content .members-list{
